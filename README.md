@@ -12,3 +12,14 @@ Tuliskan unit test pada file dengan nama `CompressTest.java` atau `DecompressTes
 ```shell
 $> ./gradlew test
 ```
+
+## How to Run app
+Jalankan program Zeep dengan perintah berukut:
+```shell
+$> ./gradlew run --args="-c plain.txt chip.txt"
+```
+
+atau,
+```shell
+$> ./gradlew run --args="-d chip.txt decode.txt"
+```
